@@ -28,10 +28,92 @@ body{
 }
 .nav-area button{
   font-size: 18px;
-  font-weight: 500;
-  color: #006A50;
+  font-weight: 600;
   background-color: white;
   border: 2px solid #006A50;
   padding: 15px 30px;
   border-radius: 10px;
+  color: #006A50;
+}
+.nav-area button:hover{
+  background-color: #006A50;
+  color: #fff;
+  cursor: pointer;
+}
+main section{
+  margin-bottom: 80px;
+}
+
+/* banner style start */
+.banner{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  background-color: #C6E4D6;
+  padding: 0 60px;
+  border-radius: 20px;
+}
+.left-section{
+  flex-basis: 48%;
+  text-align: left;
+}
+.left-section p{
+  font-size: 24px;
+  font-weight: 600;
+  color: hsla(0, 0%, 5%, 0.500);
+  margin-bottom: 16px;
+}
+.left-section h1{
+  font-size: 56px;
+  font-weight: bold;
+  color: #0E0E0E;
+  margin-bottom: 24px;
+}
+.left-section button{
+  background-color: #006A50;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 17px 34px;
+  border: none;
+  border-radius: 10px;
+}
+.left-section button:hover{
+  background-color: #fff;
+  color: #006A50;
+  cursor: pointer;
+  border: 2px solid #006A50;
+}
+.image-area{
+  margin: 80px 0;
+}
+
+/* Pillars area style */
+.title-area h2{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.pillar-card{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.child-card{
+  padding: 24px;
+  box-shadow: 5px 5px 5px 5px hsla(0, 0%, 5%, 0.15);
+  border-radius: 10px;
+}
+.child-card img{
+  margin-bottom: 24px;
+}
+.child-card h5{
+  font-size: 20px;
+  font-weight: bold;
+  color: hsla(0, 0%, 5%, 0.8);
+  margin-bottom: 5px;
+}
+.child-card p{
+  font-size: 16x;
+  color: hsla(0, 0%, 5%, 0.7);
 }
