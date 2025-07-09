@@ -101,7 +101,7 @@ main section{
 }
 .child-card{
   padding: 24px;
-  box-shadow: 5px 5px 5px 5px hsla(0, 0%, 5%, 0.15);
+  box-shadow: 0px 0px 5px hsla(0, 0%, 5%, 0.3);
   border-radius: 10px;
 }
 .child-card img{
@@ -117,3 +117,109 @@ main section{
   font-size: 16x;
   color: hsla(0, 0%, 5%, 0.7);
 }
+/* vision of futuer area style */
+
+
+.vision-area-top h2{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #0E0E0E;
+}
+.vision-area-top p{
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+  color: hsla(0, 0%, 5%, 0.6);
+}
+
+
+.vision-card-area{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.vision-child-one{
+  background-color: hsla(218, 89%, 65%, 0.2);
+  padding: 32px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px hsla(0, 0%, 5%, 0.3);
+}
+
+.vision-card-area img{
+  margin-bottom: 25px;
+}
+.vision-card-area h5{
+  font-size: 20px;
+  font-weight: bold;
+  color: hsla(0, 0%, 5%, 0.8);
+  margin-bottom: 18px;
+}
+.vision-card-area p{
+  font-size: 16px;
+  font-weight: 400;
+  color: hsla(0, 0%, 5%, 0.7);
+  margin-bottom: 24px;
+}
+.vision-child-one button{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  background-color: #5490F5;
+  border-radius: 10px;
+  border: none;
+} 
+
+.vision-child-two{
+  background-color: #C6E4D6;
+  padding: 32px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px hsla(0, 0%, 5%, 0.3);
+}
+.vision-child-two button{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  background-color: #09A15C;
+  border-radius: 10px;
+  border: none;
+}
+
+.vision-child-three{
+  background-color: #F7EBCF;
+  padding: 32px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px hsla(0, 0%, 5%, 0.3);
+
+}
+.vision-child-three button{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  background-color: #FFC239;
+  border-radius: 10px;
+  border: none;
+}
+.vision-bottom {
+  padding: 48px 24px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.vision-bottom p{
+  font-size: 16px;
+  font-weight: 400;
+  color: hsla(0, 0%, 5%, 0.8);
+  margin-bottom: 18px;
+}
+.vision-bottom h5{
+  font-size: 20px;
+  font-weight: 600;
+  color: hsla(0, 0%, 5%, 0.8);
+  margin-bottom: 6px;
+}
+
