@@ -223,3 +223,120 @@ main section{
   margin-bottom: 6px;
 }
 
+.option-table h2{
+  font-size: 40px;
+  font-weight: 700;
+  color: hsla(0, 0%, 5%);
+  margin-bottom: 18px;
+}
+
+/* option-table style */
+/* .opinion-table {
+  width: 100%;
+  margin: auto;
+  border-collapse: collapse;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+}
+
+.opinion-table thead {
+  background-color: #d2ecdc;
+}
+
+.opinion-table th,
+.opinion-table td {
+  padding: 16px 20px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.opinion-table th {
+  font-weight: bold;
+}
+
+.opinion-table td:last-child {
+  text-align: center;
+}
+
+select {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #eaf5ec;
+  font-weight: 600;
+  color: #000;
+  cursor: pointer;
+}
+
+select:focus {
+  outline: none;
+  border-color: #66bb6a;
+} */
+
+
+/* Recent NewS area style */
+.news-top-area h3{
+  font-size: 40px;
+  font-weight: bold;
+  color: #0E0E0E;
+  margin-bottom: 24px;
+}
+.news-top-area p{
+  font-size: 16px;
+  color: hsla(0, 0%, 5%, 0.7);
+  margin-bottom: 32px;
+}
+
+.news-slide-one{
+  display: flex;
+  padding: 48px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+.news-slide-img img{
+  border-radius: 25px;
+  margin-right: 32px;
+}
+.news-text-area h4{
+  font-size: 32px;
+  font-weight: bold;
+  color: hsla(0, 0%, 5%, 0.8);
+  margin-bottom: 12px;
+}
+.news-text-area p{
+  font-size: 16px;
+  color: hsla(0, 0%, 5%, 0.7);
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.news-text-area p span{
+  margin-left: 12px;
+}
+.news-text-area .news-containt{
+  margin-bottom: 32px;
+}
+.news-text-area button{
+  background-color: #006A50;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 13px 26px;
+  border: none;
+  border-radius: 10px;
+}
+.news-text-area button:hover{
+  background-color: #fff;
+  color: #006A50;
+  cursor: pointer;
+  border: 2px solid #006A50;
+}
+.news-slide-t{
+  display: flex;
+  padding: 48px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  margin-bottom: 24px;
+}
