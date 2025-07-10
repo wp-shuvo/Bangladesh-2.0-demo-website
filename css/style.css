@@ -9,7 +9,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+nav,
+main{
   margin: 0 160px;
   font-family: var(--primaryfont);
 }
@@ -463,3 +464,25 @@ select:focus {
 
 /* footer area style */
 
+.footer-area{
+  font-family: var(--primaryfont);
+  text-align: center;
+  background-color: hsla(0, 0%, 87%, 0.52);
+  padding: 50px 160px;
+}
+.footer-area h2{
+  font-size: 32px;
+  font-weight: bold;
+  color: hsla(0, 0%, 5%);
+  margin-bottom: 32px;
+}
+hr .hr-color{
+  border-top: 1px solid hsla(0, 0%, 5%, 0.1);
+  align-items: center;
+}
+.image-icon img{
+  margin-right: 23px;
+}
+.image-icon{
+  margin-top: 32px;
+}
