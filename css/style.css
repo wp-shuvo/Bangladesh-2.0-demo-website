@@ -405,9 +405,61 @@ select:focus {
   border: none;
   border-radius: 10px;
 }
-.news-text-area button:hover{
+.donate-area button:hover{
   background-color: #fff;
   color: #006A50;
   cursor: pointer;
   border: 2px solid #006A50;
 }
+
+/*  Subscribe Newsletter area style*/
+
+.subscribe-newsletter-area{
+  background: #C6E4D6;
+  border-radius: 15px;
+  padding: 80px 265px;
+  text-align: center;
+}
+
+.text-newsletter h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: hsla(0, 0%, 5%);
+  margin-bottom: 16px;
+
+}
+.subscribe-newsletter-area p{
+  font-size: 16px;
+  color: hsla(0, 0%, 5%, 0.7);
+  margin-bottom: 24px;
+  padding: 0 64px;
+}
+.btn-area{
+  margin: 24px;
+}
+.btn-area input{
+  padding: 19px 40px;
+  width: 600px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  font-size: 16px;
+  color: hsla(0, 0%, 5%, 0.3);
+}
+.btn-area input::placeholder{
+  font-size: 16px;
+  color: hsla(0, 0%, 5%, 0.3);
+}
+
+.btn-area button{
+  margin-left: -3px;
+  background-color: #006A50;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 17px 34px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+}
+
+/* footer area style */
+
